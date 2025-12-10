@@ -1,9 +1,6 @@
 version: "3.8"
 
 services:
-  python:
-    image: myimage:latest
-#    ports:
-#      - "8888:8888"
-#    volumes:
-#      - ./testprogramm:/home/jovyan/work
+  my-app-service:
+    python:
+      image: myimage:latest
